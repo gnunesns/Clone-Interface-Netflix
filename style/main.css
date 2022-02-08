@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --vermelho: #e50914;
+    --preto: #000000; 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+body{
+    background-color: var(--preto);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+header .container{
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: rgb(206, 206, 206);
+}
+header nav a:hover{
+    color: rgb(253, 253, 253);
+}
+
+/*Serie Principal*/
+.serie-princial{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/Clone-Netflix/img/capa.jpg');
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.serie-princial .img{
+    height: 40%;
+    width: 40%;
+}
+.serie-princial .descricao{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+/*.serie-princial .titulo{
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}*/
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-right: 15px;
+    font-size: 12px;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 8px;
+}
+.container{
+    margin-left: 25px;
+}
+.serie-princial .container{
+    margin-top: 30px;
+    width: 70%;
+}
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+.carrosel-filmes{
+    margin-top: 5px;
+
+}
+.site-footer-wrapper {
+    min-width: 190px;
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-size: 1em;
+    color: #757575;
+    position: relative;
+}
+.footer-divider {
+    height: 0;
+    width: 100%;
+    border-top: 1px solid #000000;
+}
+.footer-top {
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 30px;
+}
+.footer-top-a {
+    color: #757575;
+}
+.footer-top p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.footer-country {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -10px;
+}
+#filmes{
+    padding: 15px;
+}

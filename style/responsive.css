@@ -1,0 +1,28 @@
+@media screen and (max-width:600px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    header .menu{
+        margin-top: 10px;
+    }
+
+    .botao{
+        margin-top: 8px;
+        width: 300px;
+    }
+
+    .serie-princial .container{
+        margin-top: 70px;
+    }
+}
+@media screen and (min-width:1000px){
+    .serie-princial .container{
+        margin-top: 120px;
+
+    }
+    .serie-princial .descricao{
+        width: 50%;
+   }
+}
